@@ -1,0 +1,75 @@
+/*
+body {
+  background-image: url('../images/Dark\ Green\ and\ White\ Minimalist\ Nature\ Ecosystem\ Presentation.png');
+border: 100px;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+p,h1,h2{
+  
+  color:#FFFFE0;
+
+ 
+}
+
+*/
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  /*added 2 lines from here */
+  background-image: url('../images/Dark\ Green\ and\ White\ Minimalist\ Nature\ Ecosystem\ Presentation.png');
+border: 100px;
+display: flex;
+    flex-direction: column;
+/*added 2 lines till here */
+}
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav {
+  margin: 1em 0;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex: 1; /* This makes the container take all available space */
+
+}
+h2 {
+  color: #d9ec5b;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+  padding: 10px 0; /* Add some padding for better spacing */
+}
+p{
+  color: antiquewhite;
+}
+
